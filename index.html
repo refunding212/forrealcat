@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram WebApp Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #212121;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+        .button {
+            background-color: #8774e1;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to the WebApp</h2>
+    <p>Click below to log in with Telegram</p>
+    <button class="button" onclick="openTelegramLogin()">🚀 Click Here</button>
+
+    <script>
+        function openTelegramLogin() {
+            window.location.href = "https://oauth.telegram.org/auth?bot_id=7879598325&origin=https://forrealcat-webapp.onrender.com&embed=1";
+        }
+    </script>
+</body>
+</html>
